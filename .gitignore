@@ -82,4 +82,4 @@ nb-configuration.xml
 ##############################
 .DS_Store
 # Default ignored files
-/workspace.xml
+/.idea/workspace.xml
