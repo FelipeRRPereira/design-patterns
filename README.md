@@ -12,3 +12,12 @@ Quando utilizar:
 - Quantidade de condicionais excessivas
 
 Ex.: cálculos de impostos, que seguem um calculo similar com regras e percentuais diferentes.
+
+## Chain of Responsibility  
+  
+Padrão de encadeamento de processos possibilitando executa-los até que se obtenha uma resposta, tratando as condições especificas de cada processo de forma isolada e independente.
+
+Quando utilizar:
+- Cadeia de cálculos de descontos
+- Processos que sabemos qual é o próximo a ser executado se o atual não retornar nenhum resultado
+- Geração de arquivos de diferentes extensões
