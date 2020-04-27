@@ -21,3 +21,13 @@ Quando utilizar:
 - Cadeia de cálculos de descontos
 - Processos que sabemos qual é o próximo a ser executado se o atual não retornar nenhum resultado
 - Geração de arquivos de diferentes extensões
+
+## Template Method
+
+Padrão com o objetivo de centralizar as estruturas comuns entre métodos em um tamplate, implementando somente as diferenças estendendo o template.
+
+Quando utilizar:
+- Estruturas com comportamentos comuns
+- Locais com condicionais minimamente diferentes
+
+Ex.: calculo de impostos por estado.
