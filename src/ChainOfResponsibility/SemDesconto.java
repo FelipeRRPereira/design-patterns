@@ -1,5 +1,7 @@
 package ChainOfResponsibility;
 
+import Strategy.Orcamento;
+
 public class SemDesconto implements Desconto {
     @Override
     public double desconta(Orcamento orcamento) {

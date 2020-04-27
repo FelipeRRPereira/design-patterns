@@ -1,5 +1,7 @@
 package ChainOfResponsibility;
 
+import Strategy.Orcamento;
+
 public class DescontoPorVendaCasada implements Desconto{
     private Desconto proximo;
 

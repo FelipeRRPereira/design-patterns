@@ -1,5 +1,7 @@
 package ChainOfResponsibility;
 
+import Strategy.Orcamento;
+
 public class CalculadorDeDescontos {
     public double calcula(Orcamento orcamento) {
         Desconto d1 = new DescontoPorMaisDeCincoItens();
