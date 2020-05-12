@@ -31,3 +31,10 @@ Quando utilizar:
 - Locais com condicionais minimamente diferentes
 
 Ex.: calculo de impostos por estado.
+
+## Decorator
+
+Padrão utilizado para juntar comportamentos que estão em classes diferentes gerando uma sequência de acontecimentos encadeados.
+
+Quando utilizar:
+- Cálculo composto de impostos encadeados.
