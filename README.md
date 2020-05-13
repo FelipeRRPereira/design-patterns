@@ -38,3 +38,13 @@ Padrão utilizado para juntar comportamentos que estão em classes diferentes ge
 
 Quando utilizar:
 - Cálculo composto de impostos encadeados.
+
+## State
+
+Padrão utilizado controlar estados de uma aplicação diminuindo ifs desnecessários e isolamento de regras tornando o código mais enxuto.
+
+Quando utilizar:
+- Máquinas de estados.
+- Diferentes comportamentos conforme o estado(em andamento, aprovado, finalizado, etc.).
+- Controle de entregas/pacotes que tenha estados.
+- Controle de pedidos.
