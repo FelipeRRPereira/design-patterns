@@ -48,3 +48,11 @@ Quando utilizar:
 - Diferentes comportamentos conforme o estado(em andamento, aprovado, finalizado, etc.).
 - Controle de entregas/pacotes que tenha estados.
 - Controle de pedidos.
+
+## Builder
+
+Padrão utilizado para simplificar e otimizar a responsabilidade de instanciar objetos. É basicamente uma classe construtora o que auxilia nos casos de muitos atributos opcionais. 
+
+Quando utilizar:
+- Presença de muitos atributos opcionais(Necessidade de muitos construtores).
+- Atributos com instâncias de outras classes.
