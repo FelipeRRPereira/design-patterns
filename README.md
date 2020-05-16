@@ -56,3 +56,12 @@ Padrão utilizado para simplificar e otimizar a responsabilidade de instanciar o
 Quando utilizar:
 - Presença de muitos atributos opcionais(Necessidade de muitos construtores).
 - Atributos com instâncias de outras classes.
+
+## Observer
+
+Padrão utilizado para desacoplar métodos ou ações após determinado comportamento, onde é criado um *Observer* capaz de executar ações sem saber exatamente que ações.
+
+Quanto utilizar:
+- Alto acoplamento com parâmetros comuns.
+- Lista de métodos que devem ser executados pós ação qualquer.
+- Geração de uma *Nota fiscal* ou *Pedido*.

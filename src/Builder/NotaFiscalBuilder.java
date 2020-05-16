@@ -1,5 +1,7 @@
 package Builder;
 
+import Observer.AcaoAposGerarNota;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -13,9 +15,19 @@ public class NotaFiscalBuilder {
     private double impostos;
     private String observacoes;
     private Calendar data;
+    List<AcaoAposGerarNota> todasAcoesASeremExecutadas;
 
     public NotaFiscalBuilder() {
         this.data = Calendar.getInstance();
+    }
+
+    public NotaFiscalBuilder(List<AcaoAposGerarNota> acoes) {
+        this.todasAcoesASeremExecutadas = acoes;
+        this.data = Calendar.getInstance();
+    }
+
+    public void adicionaAcao(AcaoAposGerarNota novaAcao) {
+        this.todasAcoesASeremExecutadas.add(novaAcao);
     }
 
     public NotaFiscalBuilder paraEmpresa(String razaoSocial) {
@@ -48,6 +60,11 @@ public class NotaFiscalBuilder {
 
 
     public NotaFiscal constroi() {
-        return new NotaFiscal(razaoSocial, cnpj, data, valorBruto, impostos, todosItens, observacoes);
+        NotaFiscal notaFiscal = new NotaFiscal(razaoSocial, cnpj, data, valorBruto, impostos, todosItens, observacoes);
+
+        for(AcaoAposGerarNota acao : todasAcoesASeremExecutadas) {
+            acao.executa(notaFiscal);
+        }
+        return notaFiscal;
     }
 }
