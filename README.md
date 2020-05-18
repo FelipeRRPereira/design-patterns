@@ -65,3 +65,11 @@ Quanto utilizar:
 - Alto acoplamento com parâmetros comuns.
 - Lista de métodos que devem ser executados pós ação qualquer.
 - Geração de uma *Nota fiscal* ou *Pedido*.
+
+## Factory
+
+Padrão utilizado também para facilitar a criação de objetos como o *Builder*, porém a principal diferença é que o *Factory* é utilizado para objetos mais simples que precisam ser instanciados.
+
+Quando utilizar:
+- Objetos com frequência de utilização e lógica simples.
+- Objetos de conexão.
