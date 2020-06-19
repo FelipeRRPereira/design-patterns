@@ -12,15 +12,15 @@
 ## Conteúdos
 
 <ul>
-  <li><a href="#-strategy">Strategy</a></li>
-  <li><a href="#-chain-of-responsibility">Chain of Responsibility</a></li>
-  <li><a href="#-template-method">Template Method</a></li>
-  <li><a href="#-decorator">Decorator</a></li>
-  <li><a href="#-state">State</a></li>
-  <li><a href="#-builder">Builder</a></li>
-  <li><a href="#-observer">Observer</a></li>
-  <li><a href="#-factory">Factory</a></li>
-  <li><a href="#-flyweight">Flyweight</a></li>
+  <li><a href="#strategy">Strategy</a></li>
+  <li><a href="#chain-of-responsibility">Chain of Responsibility</a></li>
+  <li><a href="#template-method">Template Method</a></li>
+  <li><a href="#decorator">Decorator</a></li>
+  <li><a href="#state">State</a></li>
+  <li><a href="#builder">Builder</a></li>
+  <li><a href="#observer">Observer</a></li>
+  <li><a href="#factory">Factory</a></li>
+  <li><a href="#flyweight">Flyweight</a></li>
 </ul>
 
 ## Strategy
